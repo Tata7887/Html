@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.title, .dasc, .subtitle {
+    text-align: center;
+    margin-top: 50p;
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background-color: darkviolet;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border: 1px solid darkviolet;
+    color: darkviolet;
+    background-color: #fff;
+}
+
+.item {
+    width: 263px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.item-pic {
+    width: 100%;
+    border-radius: 10px ;
+}
+.content {
+    margin-top: 100px;
+}
+
+.subtitle{
+    
+    
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+}
+.item-box {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.item {
+    margin-bottom: 50px;
+    
+}
+
+.item-link {
+    padding: 5px;
+    background-color: #fff;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    color: #000;
+
+}
+.item-pic1 {
+    width: 50%;
+    display: -webkit-flex; 
+    -webkit-align-items: center; 
+    display: flex;
+    align-items: center;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Russo One', sans-serif;
+
+  
+}
